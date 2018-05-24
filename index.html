@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Trivia Game</title>
+</head>
+<body>
+    <h1>Fun with Fiber</h1>
+    <br>
+    <div id="startcontainer">
+        <button id="start">Start</button>
+    </div>
+
+    <div id="questionbank">
+
+        <div id="display">60 seconds</div>
+
+       <h2>What is fiber?</h2>
+       <input type="radio" id="q1" value="Indigestible carbohydrate">Indigestible carbohydrate
+       <input type="radio" id="q1" value="Complete protein">Complete protein
+       <input type="radio" id="q1" value="Saturated fat">Saturated fat
+       <input type="radio" id="q1" value="Simple sugar">Simple sugar
+    <br>
+        <h2>Which is NOT a benefit of fiber?</h2>
+        <input type="radio" id="q2" value="Fiber helps regulate the body’s use of sugars.">Fiber helps regulate the body’s use of sugars.
+        <input type="radio" id="q2" value="Fiber helps promote satiety.">Fiber helps promote satiety.
+        <input type="radio" id="q2" value="Fiber helps enhance neuron function.">Fiber helps enhance neuron function.
+        <input type="radio" id="q2" value="Fiber helps stabilize blood sugar levels.">Fiber helps stabilize blood sugar levels.
+    <br>
+        <h2>"How many grams of fiber are recommended per day for good health?"</h2>
+        <input type="radio" id="q3" value="1-10 grams">1-10 grams
+        <input type="radio" id="q3" value="10-20 grams">10-20 grams
+        <input type="radio" id="q3" value="20-30 grams">20-30 grams
+        <input type="radio" id="q3" value="30-40 grams">30-40 grams
+     <br>
+        <h2>Most Americans get ___ grams of fiber per day through their standard American diet.</h2>
+         <input type="radio" id="q4" value="5 grams">5 grams
+         <input type="radio" id="q4" value="10 grams">10 grams
+         <input type="radio" id="q4" value="15 grams">15 grams
+         <input type="radio" id="q4" value="20 grams">20 grams
+    <br>
+        <h2>What is a soluble fiber and what does it do?</h2>
+        <input type="radio" id="q5" value="Fiber that does not dissolve in water, helping promote regular bowel movements by moving food through digestive system.">Fiber that does not dissolve in water, helping promote regular bowel movements by moving food through digestive system.
+        <input type="radio" id="q5" value="Fiber that dissolves in water, helping lower glucose and cholesterol levels.">Fiber that dissolves in water, helping lower glucose and cholesterol levels.
+        <input type="radio" id="q5" value="Fiber that does not dissolve in fat, helping absorb vitamins.">Fiber that does not dissolve in fat, helping absorb vitamins.
+        <input type="radio" id="q5" value="Fiber that dissolves in fat, helping eliminate adipose cells.">Fiber that dissolves in fat, helping eliminate adipose cells.
+    <br>
+        <h2>What is an insoluble fiber and what does it do?</h2>
+        <input type="radio" id="q6" value="Fiber that does not dissolve in water, helping promote regular bowel movements by moving food through digestive system.">Fiber that does not dissolve in water, helping promote regular bowel movements by moving food through digestive system.
+        <input type="radio" id="q6" value="Fiber that dissolves in water, helping lower glucose and cholesterol levels.">Fiber that dissolves in water, helping lower glucose and cholesterol levels.
+        <input type="radio" id="q6" value="Fiber that does not dissolve in fat, helping absorb vitamins.">Fiber that does not dissolve in fat, helping absorb vitamins.
+        <input type="radio" id="q6" value="Fiber that dissolves in fat, helping eliminate adipose cells.">Fiber that dissolves in fat, helping eliminate adipose cells.
+     <br>
+        <h2>What are good sources of soluble fibers?</h2>
+        <input type="radio" id="q7" value="Fish, steak, chicken and eggs">Fish, steak, chicken and eggs
+        <input type="radio" id="q7" value="Olive oil, coconut oil, avocado and sunflower seed oil">Olive oil, coconut oil, avocado and sunflower seed oil
+        <input type="radio" id="q7" value="Whole grains, brown rice, legumes, carrots, and tomatoes">Whole grains, brown rice, legumes, carrots, and tomatoes
+        <input type="radio" id="q7" value="Oatmeal, nuts, beans, apples and blueberries">Oatmeal, nuts, beans, apples and blueberries
+    <br>
+        <h2>What are good sources of insoluble fibers?</h2>
+        <input type="radio" id="q8" value="Fish, steak, chicken and eggs">Fish, steak, chicken and eggs
+        <input type="radio" id="q8" value="Olive oil, coconut oil, avocado and sunflower seed oil">Olive oil, coconut oil, avocado and sunflower seed oil
+        <input type="radio" id="q8" value="Whole grains, brown rice, legumes, carrots, and tomatoes">Whole grains, brown rice, legumes, carrots, and tomatoes
+        <input type="radio" id="q8" value="Oatmeal, nuts, beans, apples and blueberries">Oatmeal, nuts, beans, apples and blueberries
+    <br>
+        <h2>Which is NOT a good way to help increase fiber in the diet?</h2>
+        <input type="radio" id="q9" value="Eat whole fruits instead of drinking fruit juices.">Eat whole fruits instead of drinking fruit juices.
+        <input type="radio" id="q9" value="Replace whole grains and brown rice with white rice, bread and pasta.">Replace whole grains and brown rice with white rice, bread and pasta.
+        <input type="radio" id="q9" value="Substitute beans or legumes for meat 2-3x/week.">Substitute beans or legumes for meat 2-3x/week.
+        <input type="radio" id="q9" value="Snack on vegetables instead of chips, crackers and candy.">Snack on vegetables instead of chips, crackers and candy.
+    <br>
+        <h2>Which is NOT a fact about fiber?</h2>
+        <input type="radio" id="q10" value="Low fiber diets that are high in foods with high glycemic indexes increase the risk of type 2 diabetes.">Low fiber diets that are high in foods with high glycemic indexes increase the risk of type 2 diabetes.
+        <input type="radio" id="q10" value="Fiber in wheat and oat bran is more effective than fiber in fruits and vegetables to help relieve constipation.">Fiber in wheat and oat bran is more effective than fiber in fruits and vegetables to help relieve constipation.
+        <input type="radio" id="q10" value="Women who eat more high-fiber foods during adolescence and adulthood have significantly lower risk of breast cancer.">Women who eat more high-fiber foods during adolescence and adulthood have significantly lower risk of breast cancer.
+        <input type="radio" id="q10" value="A high fiber diet raises the risk of heart disease by increasing cholesterol.">A high fiber diet raises the risk of heart disease by increasing cholesterol.
+    <br>
+        <button id="submit">Submit</button>
+
+    </div>
+
+    <div id="endcontainer">
+        <h2 id="correctAnswer">Correct Answers</h2>Correct Answers
+        <h2 id="incorrectAnswer">Incorrect Answers</h2>Incorrect Answers
+        <h2 id="unanswered">Unanswered Questions</h2>Unanswered Questions
+    </div>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
