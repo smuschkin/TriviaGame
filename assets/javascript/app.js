@@ -55,7 +55,7 @@ $(document).ready(function() {
         var Q9 = $('input:radio[id="q9"]:checked').val();
         var Q10 = $('input:radio[id="q10"]:checked').val();
 
-    if(Q1 == undefined){
+    if(Q1 == undefined){        
         unanswered++;
     }
     else if(Q1 =="Indigestible carbohydrate"){
